@@ -9,7 +9,10 @@
     }
 
 }
-
+body{
+    color: blue;
+    background-color: #f05010;
+}
 h1{
     color:green;
 }
@@ -44,11 +47,11 @@ h1{
 }
 .modal-body a{
     text-decoration:none;
-    color:black;
+    color:rgb(233, 27, 27);
     text-align:center;
 }
 .hearticon, .dmicon{
-    color:black;
+    color:rgb(223, 21, 21);
     font-size:30px;
     margin-left:-10px;
     margin-right:-10px;
@@ -92,7 +95,7 @@ h1{
     margin-top:5%;
 }
 body{
-    background-color: #131413;
+    background-color: #f05010;
     color:white;
     font-family: 'Architects Daughter', cursive;
     font-size: 20px;
@@ -127,7 +130,7 @@ body{
     padding:0px;
 }
 .user{
-    color:black;
+    color:rgb(243, 52, 4);
 }
 .user a:hover{
     text-decoration:none;
@@ -137,10 +140,10 @@ body{
 }
 #overlay{
     display: none;
-    color: black;
+    color: rgb(223, 28, 28);
     width: 100%;
     height: 100%;
-    background-color:rgba(37, 36, 36, 0.456);
+    background-color:rgba(212, 72, 16, 0.456);
     position:absolute;
     top: 0px;
     left: 0px;
@@ -163,4 +166,56 @@ body{
 
 .nav-item {
     margin-right:13%;
+}
+.socials {
+    text-align: center;
+    padding: 90px
+  }
+  
+  
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align:center;
+    text-decoration: none;
+    border-radius: 100%;
+  }
+.fa:hover {
+    opacity: 0.7;
+  }
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+.fa-behance {
+    background:blue;
+    color: white
+  }
+.fa-youtube {
+    background: maroon;
+    color: white
+  }
+.fa-pinterest {
+    background: red;
+    color: white;
+  }
+.fa-skype {
+    background: lightblue;
+    color: white;
+  }
+.fa-flickr  {
+    background:red;
+    color:white;
+  }
+.fa-stumbleupon {
+    background: orange;
+    color: white;
+  }
+h6 {
+  text-align: center;
 }
